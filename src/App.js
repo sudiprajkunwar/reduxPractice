@@ -7,10 +7,13 @@ const App = () => {
   return (
     <Provider store={store}>
       <div className="App"> 
-      <CakeContainer/>
+        <CakeContainer/>
       </div>
     </Provider>
     )
 };
 
 export default App;
+
+
+   
